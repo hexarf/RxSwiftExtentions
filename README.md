@@ -5,7 +5,8 @@ This utility package for RxSwift allows the combineLatest and zip operators to a
 
 ```swift
 
-  let combinedObservable = ObservableExtension.combineLatest(observable1, observable2, observable3, observable4, observable5, observable6, observable7, observable8, observable9, ... , observable16)
+  let combinedObservable = ObservableExtension.combineLatest(observable1, observable2,
+observable3, observable4, observable5, observable6, observable7, observable8, observable9, ... , observable16)
 
   combinedObservable.subscribe(onNext: { values in
     let observable1Value = values.1
@@ -13,7 +14,8 @@ This utility package for RxSwift allows the combineLatest and zip operators to a
     let observable16Value = values.16
   })
 
-  let zippedObservable = ObservableExtension.zip(observable1, observable2, observable3, observable4, observable5, observable6, observable7, observable8, observable9, ... , observable16)
+  let zippedObservable = ObservableExtension.zip(observable1, observable2, observable3,
+observable4, observable5, observable6, observable7, observable8, observable9, ... , observable16)
 
   zippedObservable.subscribe(onNext: { values in
     let observable1Value = values.1
