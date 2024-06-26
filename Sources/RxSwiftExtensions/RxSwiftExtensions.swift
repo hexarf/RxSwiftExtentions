@@ -2,11 +2,11 @@
 // https://docs.swift.org/swift-book
 import RxSwift
 
-class ObservableExtension {
+public class ObservableExtension {
     // MARK: combine operator extension
 
     /// 9
-    static func combineLatest<T1, T2, T3, T4, T5, T6, T7, T8, T9>(_ source1: Observable<T1>,
+    public static func combineLatest<T1, T2, T3, T4, T5, T6, T7, T8, T9>(_ source1: Observable<T1>,
                                                                   _ source2: Observable<T2>,
                                                                   _ source3: Observable<T3>,
                                                                   _ source4: Observable<T4>,
@@ -23,7 +23,7 @@ class ObservableExtension {
     }
 
     /// 10
-    static func combineLatest<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>(_ source1: Observable<T1>,
+    public static func combineLatest<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>(_ source1: Observable<T1>,
                                                                        _ source2: Observable<T2>,
                                                                        _ source3: Observable<T3>,
                                                                        _ source4: Observable<T4>,
@@ -42,7 +42,7 @@ class ObservableExtension {
     }
 
     /// 11
-    static func combineLatest<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11>(_ source1: Observable<T1>,
+    public static func combineLatest<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11>(_ source1: Observable<T1>,
                                                                             _ source2: Observable<T2>,
                                                                             _ source3: Observable<T3>,
                                                                             _ source4: Observable<T4>,
@@ -62,7 +62,7 @@ class ObservableExtension {
     }
 
     /// 12
-    static func combineLatest<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12>(_ source1: Observable<T1>,
+    public static func combineLatest<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12>(_ source1: Observable<T1>,
                                                                                  _ source2: Observable<T2>,
                                                                                  _ source3: Observable<T3>,
                                                                                  _ source4: Observable<T4>,
@@ -83,7 +83,7 @@ class ObservableExtension {
     }
 
     /// 13
-    static func combineLatest<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13>(_ source1: Observable<T1>,
+    public static func combineLatest<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13>(_ source1: Observable<T1>,
                                                                                       _ source2: Observable<T2>,
                                                                                       _ source3: Observable<T3>,
                                                                                       _ source4: Observable<T4>,
@@ -105,7 +105,7 @@ class ObservableExtension {
     }
 
     /// 14
-    static func combineLatest<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14>(_ source1: Observable<T1>,
+    public static func combineLatest<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14>(_ source1: Observable<T1>,
                                                                                            _ source2: Observable<T2>,
                                                                                            _ source3: Observable<T3>,
                                                                                            _ source4: Observable<T4>,
@@ -128,7 +128,7 @@ class ObservableExtension {
     }
 
     /// 15
-    static func combineLatest<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15>(_ source1: Observable<T1>,
+    public static func combineLatest<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15>(_ source1: Observable<T1>,
                                                                                                 _ source2: Observable<T2>,
                                                                                                 _ source3: Observable<T3>,
                                                                                                 _ source4: Observable<T4>,
@@ -152,7 +152,7 @@ class ObservableExtension {
     }
 
     /// 16
-    static func combineLatest<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16>(_ source1: Observable<T1>,
+    public static func combineLatest<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16>(_ source1: Observable<T1>,
                                                                                                      _ source2: Observable<T2>,
                                                                                                      _ source3: Observable<T3>,
                                                                                                      _ source4: Observable<T4>,
@@ -179,7 +179,7 @@ class ObservableExtension {
     // MARK: zip operator extension
 
     /// 9
-    static func zip<T1, T2, T3, T4, T5, T6, T7, T8, T9>(_ source1: Observable<T1>,
+    public static func zip<T1, T2, T3, T4, T5, T6, T7, T8, T9>(_ source1: Observable<T1>,
                                                                   _ source2: Observable<T2>,
                                                                   _ source3: Observable<T3>,
                                                                   _ source4: Observable<T4>,
@@ -196,7 +196,7 @@ class ObservableExtension {
     }
 
     /// 10
-    static func zip<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>(_ source1: Observable<T1>,
+    public static func zip<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>(_ source1: Observable<T1>,
                                                                        _ source2: Observable<T2>,
                                                                        _ source3: Observable<T3>,
                                                                        _ source4: Observable<T4>,
@@ -215,7 +215,7 @@ class ObservableExtension {
     }
 
     /// 11
-    static func zip<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11>(_ source1: Observable<T1>,
+    public static func zip<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11>(_ source1: Observable<T1>,
                                                                             _ source2: Observable<T2>,
                                                                             _ source3: Observable<T3>,
                                                                             _ source4: Observable<T4>,
@@ -235,7 +235,7 @@ class ObservableExtension {
     }
 
     /// 12
-    static func zip<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12>(_ source1: Observable<T1>,
+    public static func zip<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12>(_ source1: Observable<T1>,
                                                                                  _ source2: Observable<T2>,
                                                                                  _ source3: Observable<T3>,
                                                                                  _ source4: Observable<T4>,
@@ -256,7 +256,7 @@ class ObservableExtension {
     }
 
     /// 13
-    static func zip<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13>(_ source1: Observable<T1>,
+    public static func zip<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13>(_ source1: Observable<T1>,
                                                                                       _ source2: Observable<T2>,
                                                                                       _ source3: Observable<T3>,
                                                                                       _ source4: Observable<T4>,
@@ -278,7 +278,7 @@ class ObservableExtension {
     }
 
     /// 14
-    static func zip<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14>(_ source1: Observable<T1>,
+    public static func zip<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14>(_ source1: Observable<T1>,
                                                                                            _ source2: Observable<T2>,
                                                                                            _ source3: Observable<T3>,
                                                                                            _ source4: Observable<T4>,
@@ -301,7 +301,7 @@ class ObservableExtension {
     }
 
     /// 15
-    static func zip<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15>(_ source1: Observable<T1>,
+    public static func zip<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15>(_ source1: Observable<T1>,
                                                                                                 _ source2: Observable<T2>,
                                                                                                 _ source3: Observable<T3>,
                                                                                                 _ source4: Observable<T4>,
@@ -325,7 +325,7 @@ class ObservableExtension {
     }
 
     /// 16
-    static func zip<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16>(_ source1: Observable<T1>,
+    public static func zip<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16>(_ source1: Observable<T1>,
                                                                                                      _ source2: Observable<T2>,
                                                                                                      _ source3: Observable<T3>,
                                                                                                      _ source4: Observable<T4>,
