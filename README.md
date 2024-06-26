@@ -35,7 +35,7 @@ Once you have your Swift package set up, adding Library as a dependency is as ea
 
 ```swift
   dependencies: [
-    .package(url: "https://github.com/hexarf/RxSwiftExtentions", .upToNextMajor(from: "1.0.1"))
+    .package(url: "https://github.com/hexarf/RxSwiftExtentions", .upToNextMajor(from: "1.0.0"))
   ]
 ```
 
