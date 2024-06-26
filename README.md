@@ -29,18 +29,16 @@ observable4, observable5, observable6, observable7, observable8, observable9, ..
 
 ### [Swift Package Manager](https://github.com/apple/swift-package-manager)
 
-> **Note**: There is a critical cross-dependency bug affecting many projects including RxSwift in Swift Package Manager. We've [filed a bug (SR-12303)](https://bugs.swift.org/browse/SR-12303) in early 2020 but have no answer yet. Your mileage may vary. A partial workaround can be found [here](https://github.com/ReactiveX/RxSwift/issues/2127#issuecomment-717830502).
+The Swift Package Manager is a tool for automating the distribution of Swift code and is integrated into the swift compiler.
 
-Create a `Package.swift` file.
+Once you have your Swift package set up, adding Library as a dependency is as easy as adding it to the dependencies value of your Package.swift or the Package list in Xcode.
 
 ```swift
-import PackageDescription
-
-let package = Package(
   dependencies: [
-    .package(url: "https://github.com/hexarf/RxSwiftExtentions", from: "1.0.0")
+    .package(url: "https://github.com/hexarf/RxSwiftExtentions", .upToNextMajor(from: "1.0.1"))
   ]
-)
 ```
 
+## License
 
+RxSwiftExtentions is released under the MIT license. https://github.com/hexarf/RxSwiftExtentions/blob/master/LICENSE.md for details.
